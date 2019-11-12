@@ -5,6 +5,45 @@
 * Outline Elements
  */
 
- * {
-     outline: 1px dotted  blue;
- }
+ body {
+    background-color: #fbf88b;
+  }
+  
+  
+  h1 {
+   text-align: center;
+   color: black;
+   font: san-serif;
+   font-family: 'Roboto', sans-serif; 
+   font-weight: bold; 
+   font-size: 3rem; 
+  }
+  
+  #app {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;   
+  }
+  
+  .movie {
+   width: 200px;
+    height: 100%;
+   font-family: 'Roboto', sans-serif; 
+   padding: 1%; 
+   margin: 5%;
+  background: green;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0f9b0f, #0F550F);  
+  background: linear-gradient(to right, #0f9b0f, #0F550F);   
+  }
+  
+  .author { 
+  color: white;
+  text-align: right; 
+  font-size: 1rem;
+  }
+  
+  .quote {
+  color: white;
+  text-align: center; 
+  font-size: 1.4rem;
+  }
